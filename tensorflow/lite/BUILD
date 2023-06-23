@@ -23,6 +23,7 @@ cc_library(
 cc_library(
     name = "kernel_api",
     hdrs = [
+        "array.h",
         "builtin_op_data.h",
         "builtin_ops.h",
         "context_util.h",
